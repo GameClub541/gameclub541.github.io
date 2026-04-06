@@ -2,58 +2,49 @@
 const modsData = [
     { 
         id: 1, 
-        icon: "⚔️", 
-        title: "Epic Combat Overhaul", 
-        desc: "Полная переработка боевой системы — удары, блоки, спецэффекты.", 
-        game: "Skyrim", 
-        downloads: "12.4k",
-        downloadUrl: "mods/epic-combat.zip",  // ← файл в папке mods
-        fileName: "epic-combat.zip",
-        fileSize: "45.2 MB"
+        icon: "☀", 
+        title: "Neighbor Hello (Hello Neighbor Mod Kit)", 
+        desc: "Вы и ваш сосед в игре Hello Neighbor меняетесь домами", 
+        game: "Hello Neighbor (Hello Neighbor Mod Kit)", 
+        downloadUrl: "mods/NeighborHello.zip",  // ← файл в папке mods
+        fileName: "NeighborHello.zip",
+        fileSize: "35.17 MB"
     },
     { 
         id: 2, 
-        icon: "🚗", 
-        title: "Realistic Vehicle Pack", 
-        desc: "Физика и модели авто как в реальной жизни. 30+ машин.", 
-        game: "GTA V", 
-        downloads: "8.2k",
-        downloadUrl: "mods/realistic-vehicles.zip",  // ← файл в папке mods
-        fileName: "realistic-vehicles.zip",
-        fileSize: "128.7 MB"
+        icon: "🟢", 
+        title: "Super Green Craft", 
+        desc: "Мод добавляет в игру: новый биом, босса, инструменты, руду и уникальные предметы. В игре появляется новый босс. Убив его вы получаете: Ухо зелёного крипера, с помощью которого вы можете скрафтить инструменты и броню", 
+        game: "Minecraft (forge 1.16.5)", 
+        downloadUrl: "mods/SuperGreenCraft-v.1.2.0.jar",  // ← файл в папке mods
+        fileName: "SuperGreenCraft-v.1.2.0.jar",
+        fileSize: "0,184 MB"
     },
     { 
         id: 3, 
-        icon: "🌿", 
-        title: "Verdant World", 
-        desc: "Ультра реалистичная трава, деревья и тени.", 
-        game: "Minecraft", 
-        downloads: "21k",
-        downloadUrl: "mods/verdant-world.zip",  // ← файл в папке mods
-        fileName: "verdant-world.zip",
-        fileSize: "89.3 MB"
+        icon: "👃", 
+        title: "Super Village Trade", 
+        desc: "Мод который добавляет суперские трейды жителей.", 
+        game: "Minecraft (fabric 1.21.8)", 
+        downloadUrl: "mods/super_village_trade-1.0.1-fabric-1.21.8.jar",  // ← файл в папке mods
+        fileName: "super_village_trade-1.0.1-fabric-1.21.8.jar",
+        fileSize: "0,063 MB"
     },
     { 
         id: 4, 
-        icon: "🧙", 
-        title: "Magic Expansion", 
-        desc: "Новые заклинания и магические школы.", 
-        game: "Skyrim", 
-        downloads: "5.7k",
-        downloadUrl: "mods/magic-expansion.zip",  // ← файл в папке mods
-        fileName: "magic-expansion.zip",
-        fileSize: "34.1 MB"
+        icon: "🔵", 
+        title: "Green/Blue Screen Mod", 
+        desc: "Мод добавляет в игру 3 новых блока: зелёный хромакей, синий хромакей и обесцвеченный хромакей для крафта 2 предыдущих блоков.", 
+        game: "Minecraft (forge 1.12.2)", 
+        downloadUrl: "mods/Green-Blue-Screen-Mod-v.1.0.1-forge-1.12.2.jar",  // ← файл в папке mods
+        fileName: "Green-Blue-Screen-Mod-v.1.0.1-forge-1.12.2.jar",
+        fileSize: "0,035 MB"
     },
 ];
 
 // Новостная лента
 const newsData = [
-    { id: 1, date: "2 апреля 2026", title: "Выход Skywind Remastered", excerpt: "Мод, который переносит Morrowind на новый движок, получил бета-версию." },
-    { id: 2, date: "30 марта 2026", title: "Cyberpunk 2077 — MegaPatch 2.0", excerpt: "Исправлено более 200 багов, добавлена новая графика и ИИ." },
-    { id: 3, date: "28 марта 2026", title: "Stardew Valley: Expanded 1.6", excerpt: "Огромное дополнение с новыми NPC, локациями и событиями." },
-    { id: 4, date: "25 марта 2026", title: "Minecraft: Create 6.0", excerpt: "Новые механизмы, паровые двигатели и автоматизация." },
-    { id: 5, date: "22 марта 2026", title: "The Witcher 3 — HD Reworked", excerpt: "Полная переработка текстур и освещения для следующего поколения." },
-    { id: 6, date: "20 марта 2026", title: "Fallout: London выходит в мае", excerpt: "Огромный мод с новым сюжетом, озвучкой и локациями." },
+    { id: 1, date: "29 января 2026", title: "Neighbor Hello (Hello Neighbor Mod Kit)", excerpt: "Neighbor Hello - это мод для Hello Neighbor, в котором вы и ваш сосед меняетесь домами." },
 ];
 
 // 🔽 ФУНКЦИЯ СКАЧИВАНИЯ ИЗ ПАПКИ MODS 🔽
