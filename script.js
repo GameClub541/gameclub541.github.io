@@ -6,7 +6,7 @@ const modsData = [
         title: "Neighbor Hello (Hello Neighbor Mod Kit)", 
         desc: "Вы и ваш сосед в игре Hello Neighbor меняетесь домами", 
         game: "Hello Neighbor (Hello Neighbor Mod Kit)", 
-        downloadUrl: "mods/NeighborHello.zip",  // ← файл в папке mods
+        downloadUrl: "https://drive.google.com/file/d/10pn14Z3nmad0hvVwtxARlAfkOQxNUWsI/view?usp=drive_link",  // ← файл в папке mods
         fileName: "NeighborHello.zip",
         fileSize: "35.17 MB"
     },
@@ -16,7 +16,7 @@ const modsData = [
         title: "Super Green Craft", 
         desc: "Мод добавляет в игру: новый биом, босса, инструменты, руду и уникальные предметы. В игре появляется новый босс. Убив его вы получаете: Ухо зелёного крипера, с помощью которого вы можете скрафтить инструменты и броню", 
         game: "Minecraft (forge 1.16.5)", 
-        downloadUrl: "mods/SuperGreenCraft-v.1.2.0.jar",  // ← файл в папке mods
+        downloadUrl: "SuperGreenCraft-v.1.2.0.jar",  // ← файл в папке mods
         fileName: "SuperGreenCraft-v.1.2.0.jar",
         fileSize: "0,184 MB"
     },
@@ -26,7 +26,7 @@ const modsData = [
         title: "Super Village Trade", 
         desc: "Мод который добавляет суперские трейды жителей.", 
         game: "Minecraft (fabric 1.21.8)", 
-        downloadUrl: "mods/super_village_trade-1.0.1-fabric-1.21.8.jar",  // ← файл в папке mods
+        downloadUrl: "super_village_trade-1.0.1-fabric-1.21.8.jar",  // ← файл в папке mods
         fileName: "super_village_trade-1.0.1-fabric-1.21.8.jar",
         fileSize: "0,063 MB"
     },
@@ -36,7 +36,7 @@ const modsData = [
         title: "Green/Blue Screen Mod", 
         desc: "Мод добавляет в игру 3 новых блока: зелёный хромакей, синий хромакей и обесцвеченный хромакей для крафта 2 предыдущих блоков.", 
         game: "Minecraft (forge 1.12.2)", 
-        downloadUrl: "mods/Green-Blue-Screen-Mod-v.1.0.1-forge-1.12.2.jar",  // ← файл в папке mods
+        downloadUrl: "Green-Blue-Screen-Mod-v.1.0.1-forge-1.12.2.jar",  // ← файл в папке mods
         fileName: "Green-Blue-Screen-Mod-v.1.0.1-forge-1.12.2.jar",
         fileSize: "0,035 MB"
     },
