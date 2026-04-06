@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Game Club — современные моды для игр</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Хедер с меню сверху -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo">
+                <span class="logo__icon">⚡</span>
+                <span class="logo__text">Game<span class="logo__accent">Club</span></span>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#" class="nav__link active" data-page="home">Главная</a></li>
+                    <li><a href="#" class="nav__link" data-page="news">Новости модов</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Сменить тему">🌙</button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Меню">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main id="app">
+        <!-- Главная страница -->
+        <div id="home-page" class="page active">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Качай мои моды <span class="gradient-text">без границ</span></h1>
+                        <p class="hero__desc">Мои модов для твоих игр.</p>
+                        <div class="hero__stats">
+                            <div class="stat"><span class="stat__number">4</span> <span class="stat__label">мода (пока что)</span></div>
+                            <div class="stat"><span class="stat__number">2</span> <span class="stat__label">игры</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="featured-mods">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">🔥 Популярные моды</h2>
+                        <span class="section-badge">ты можешь поставить их вручную</span>
+                    </div>
+                    <div class="mods-grid" id="modsGrid">
+                        <!-- Карточки модов будут загружены через JS -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-banner">
+                <div class="container">
+                    <div class="banner-card">
+                        <div class="banner__text">
+                            <h3>Установка — твоя магия</h3>
+                            <p>Мы не используем лаунчеры. Скачивай мод, читай инструкцию и ставь сам. Полный контроль.</p>
+                        </div>
+                        <div class="banner__icon">🛠️</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- НОВОСТНАЯ страница -->
+        <div id="news-page" class="page">
+            <section class="news-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">📰 Новости модов</h2>
+                    </div>
+                    <div class="news-grid" id="newsGrid">
+                        <!-- Новости подгружаются из JS -->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__info">
+                <div class="logo logo--small">
+                    <span class="logo__icon">⚡</span>
+                    <span class="logo__text">ModHub</span>
+                </div>
+                <p class="footer__tagline">Моды, которые меняют игру. Установка только твоими руками.</p>
+                <div class="generated-badge">
+                    🤖 Сайт сгенерирован AI DeepSeek (искусственным интеллектом) • 2026
+                </div>
+            </div>
+            <div class="footer__links">
+                <div class="footer__col">
+                    <h4>Разделы</h4>
+                    <ul>
+                        <li><a href="#" data-page="home">Главная</a></li>
+                        <li><a href="#" data-page="news">Новости</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Сообщество</h4>
+                    <ul>
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>Все моды предоставлены для личного использования. Ты сам отвечаешь за установку.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
