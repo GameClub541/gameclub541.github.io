@@ -6,7 +6,7 @@ const modsData = [
         title: "Neighbor Hello (Hello Neighbor Mod Kit)", 
         desc: "Вы и ваш сосед в игре Hello Neighbor меняетесь домами", 
         game: "Hello Neighbor (Hello Neighbor Mod Kit)", 
-        downloadUrl: "https://www.moddb.com/mods/neighbor-hello/downloads/neighbor-hello",  // ← файл в папке mods
+        downloadUrl: "https://www.moddb.com/mods/neighbor-hello/downloads/neighbor-hello",
         fileName: "NeighborHello.zip",
         fileSize: "35.17 MB"
     },
